@@ -1,0 +1,59 @@
+.solutions-container {
+    display: grid;
+    grid-template-areas:
+        "header picture"
+        "description picture"
+        "button picture";
+    /* column-gap: 290px; */
+    grid-template-columns: auto 430px;
+    column-gap: 70px;
+}
+
+@media (max-width: 950px) {
+  .solutions-container {
+    grid-template-areas:
+      "header"
+      "description"
+      "picture"
+      "button";
+    grid-template-columns: 1fr; /* Single column layout */
+    /* justify-self: center; */
+  }
+
+    .solutions-container .button-small-rounded-1 {
+        width: fit-content;
+        /* margin-top: 0px !important; */
+        margin-bottom: 25px;
+        /* margin-left: auto; */
+    }
+
+      .solutions-container .header-1,
+    .solutions-container .text-1{
+        max-width: unset !important;
+    }
+}
+    
+    .solutions-container .header-1,
+    .solutions-container .text-1{
+        margin-top: 0px;
+        /* max-width: 600px; */
+    }
+
+.solutions-container .text-1 {
+    margin-bottom: 25px;
+}
+
+.solutions-container .button-small-rounded-1 {
+    width: fit-content;
+    margin-top: 25px;
+}
+
+.solutions-picture {
+    width: 100%;
+    border-radius: 6px;
+    border: solid 1px rgb(235, 235, 235);
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    /* max-width: 600px; */
+    justify-self: center;
+}

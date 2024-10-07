@@ -1,0 +1,38 @@
+.news-item {
+    max-width: 600px;
+    width: clamp(0px, 100% - 40px, 600px);
+
+    margin-bottom: 150px;
+}
+
+    .news-item .badge-small-white {
+        margin-bottom: 10px; 
+    }
+
+.news-item button {
+    margin-left: auto;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.news-picture-container {
+    width: 100%;
+    box-sizing: border-box;
+    aspect-ratio: 109 / 60;
+    border-radius: 20px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background-color: white;
+    border: solid 1px rgba(0, 0, 0, 0.08);
+}
+
+    .news-picture-container  > div {
+        border-radius: 16px;
+        width: 100%;
+        height: 100%;
+        border: solid 1px rgba(0, 0, 0, 0.08);
+        background-color: #FAFAFA;
+    }

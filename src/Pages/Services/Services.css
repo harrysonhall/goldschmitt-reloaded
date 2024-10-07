@@ -1,0 +1,21 @@
+.cards-container-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    margin-top: 60px;
+}
+
+
+
+#services .section .text-1,
+#services .section .header-1 {
+    max-width: 600px;
+}
+
+#services .hero .button-medium-rounded-1 {
+    margin-top: 60px;
+}
+
+#services .section {
+    /* width: clamp(0px, 100% - 80px, 1120px); */
+}

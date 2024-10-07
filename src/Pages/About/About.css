@@ -1,0 +1,107 @@
+#about-section1 .header-40-600 {
+    text-align: center;
+    margin: 10px auto;
+    margin-bottom: 100px;
+}
+
+#values-container {
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width: 700px) {
+  #values-container {
+    flex-direction: column;
+  }
+}
+
+
+
+
+#who-we-serve-container {
+    display: grid;
+    grid-template-areas:
+        "description stateAndLocal"
+        "civilian edu"
+        "defense commercial";
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    row-gap: 80px;
+}
+
+@media (max-width: 800px) {
+  #who-we-serve-container {
+    grid-template-areas:
+        "description"
+        "civilian"
+        "defense"
+        "stateAndLocal"
+        "edu"
+        "commercial";
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+    column-gap: 80px;
+  }
+
+  
+}
+
+#who-we-serve-container .header-40-600 {
+    justify-content: flex-start;
+}
+
+#who-we-serve-container .header-40-600 {
+    justify-content: flex-start;
+}
+
+#who-we-serve-container > .serve-card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: flex-start; /* Aligns items to the top */
+    align-items: flex-start;
+    gap: 20px
+}
+
+
+
+
+
+
+#people-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+@media (max-width: 950px) {
+  #people-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 750px) {
+  #people-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+.people-card > div:nth-child(1) {
+    border-radius: 8px;
+    /* height: 150px; */
+    margin-bottom: 16px;
+    /* border: solid #707070 1px; */
+    background-color: white;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    background-color: #D5CFC4;
+}
+
+.people-card > div:nth-child(2) {
+   color: black;
+}

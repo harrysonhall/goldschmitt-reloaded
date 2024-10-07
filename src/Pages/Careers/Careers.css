@@ -1,0 +1,49 @@
+.benefits-container {
+    
+}
+
+
+#careers-section1 .header-40-600 {
+    margin-bottom: 100px;
+}
+
+#jobs-container {
+    margin-top: 10px;
+}
+
+    .job-department-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 100px;
+    }
+
+    #jobs-container > .subheader-13-600 {
+        margin-left: 30px;
+        margin-top: 60px;
+        margin-bottom: 15px;
+    }
+    
+    .job-card {
+        padding: 30px;
+        border-radius: 12px;
+        border: solid 1px #EBEBEB;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+
+@media (max-width: 500px) {
+    .job-card {
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the start for a more natural column layout */
+        gap: 20px;
+    }
+
+    .job-card button {
+        /* align-self: flex-end; */
+    }
+}

@@ -1,0 +1,61 @@
+/* @import url('./Pages/Home2/Hero/Hero.css'); */
+
+.App {
+	text-align: center;
+}
+
+* {
+	/* border: solid red 1px; */
+	font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+html {
+	/* overflow: hidden; */
+	box-sizing: border-box;
+	/* height: 100svh; */
+	overscroll-behavior: none; 
+    /* touch-action: pan-x pan-y; */
+	margin: 0;
+	padding: 0;
+	/* background-color: #141414; */
+	background-color: #FAFAFA;
+	color: black;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 100%;
+	/* overscroll-behavior: none; */
+    /* touch-action: pan-x pan-y; */
+	-webkit-font-smoothing: antialiased;
+}
+
+
+
+#root {
+	position: relative;
+	/* overflow-y: scroll; */
+	/* height: 100%; */
+	/* box-sizing: border-box; */
+	/* overflow-x: hidden; */
+	/* overflow: hidden; */
+}
+
+	#root[mobile-menu-opened] #home {
+		pointer-events: none;
+		user-select: none;
+	}
+
+#app {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+
