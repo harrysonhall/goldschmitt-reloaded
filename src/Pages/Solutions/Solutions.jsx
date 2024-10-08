@@ -35,7 +35,7 @@ const SolutionsSection1 = () => (
       <div className="header-1" style={{ gridArea: 'header' }}>Timeguard Solutions™</div>
       <div className="text-1" style={{ gridArea: 'description' }}>Timeguard Solutions™ offers modern cloud-based Saas solutions for complex roster, scheduling, staff, and visitor management for federal agencies, state governments, and private sector companies</div>
       <div className="solutions-picture" style={{ gridArea: 'picture',   backgroundImage: `url(${timeguard})` }}></div>
-      <button className="button-small-rounded-1" style={{ gridArea: 'button' }}>Learn More</button>
+      <button className="button-small-rounded-1" style={{ gridArea: 'button' }} onClick={() => window.open('https://www.timeguardsolutions.com/')}>Learn More</button>
     </div>
    
   </div>
@@ -51,7 +51,7 @@ const SolutionsSection2 = () => (
       <div className="header-1" style={{ gridArea: 'header' }}>Risk Management Strategic Automated Assessment Tool (SAAT)</div>
       <div className="text-1" style={{ gridArea: 'description' }}>Goldschmitt has partnered with Strategic eBusiness Solutions Inc. to provide our customers with a Best-in-Class solution. Our Strategic Automated Assessment Tool (SAAT) is designed to simplify Federal compliance.</div>
       <div className="solutions-picture" style={{ gridArea: 'picture', backgroundImage: `url(${risk})` }}></div>
-      <button className="button-small-rounded-1" style={{ gridArea: 'button' }}>Learn More</button>
+      <button className="button-small-rounded-1" style={{ gridArea: 'button' }} onClick={() => window.open('https://www.goldschmitt.com/risk-management-solution')}>Learn More</button>
     </div>
    
   </div>

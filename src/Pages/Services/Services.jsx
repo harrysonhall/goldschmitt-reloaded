@@ -7,7 +7,7 @@ const Services = () => {
         <div className='hero-header1'>Our Services</div>
         <div className='text-21-400-resizable'>Goldschmitt (G&A) offers a suite of services and solutions to support our clients with their complex business requirements.</div>
 
-        <button className="button-medium-rounded-1">Download Capabilities</button>
+        <button className="button-medium-rounded-1" onClick={() => window.open('https://cdn.website-editor.net/s/8e091ffb58be4d69bf4c8353bc137b0d/files/uploaded/G%2526A%2520Capabilities%2520Statement.v9%252004.09.2024.pdf?Expires=1730749561&Signature=CH5QRJDheAQ0y10x-paUlK~~AgOyOi-9en4R8pwbkmRJA5GSrpmPGH0obUDjyNVe-LqsTZsx68k-P-7zH2LZFb9dWbqnfaPzyf48X8LU8VsfjRuv-A0-eja3tta6g0AD38s6DMGDXGCnUQypihsdPhHc3CFiipI~qzBRgDiMEiXgGH9ym~SC4tW003PkwWULNEU73vVzDE4BwSUkdxc847XnSfXQ6hV03JpvWoJ05iOygt21wBz3onURkPd64jnpjlJO7N-O0SrVFE86lzz~XP7ZgyVkyXRCv8AWLYzMQk5M2ZoeTLp~6JW39ipVw36YOUfLIEJqmZ914RFeFgQtWg__&Key-Pair-Id=K2NXBXLF010TJW')}>Download Capabilities</button>
       </div>
 
 
@@ -30,7 +30,7 @@ export default Services;
 
 
 const HomeSection1 = () => (
-  <div className="section" > 
+  <div className="section" id="computer-systems-design"> 
     <div className="horizontal-line-1"></div>
     <div className="badge-medium-black">Build</div>
     <div className="header-1">Custom Computer Programming & Systems Design</div>
@@ -79,7 +79,7 @@ const HomeSection1 = () => (
 
 
 const HomeSection2 = () => (
-  <div className="section">
+  <div className="section" id="management-consulting">
     <div className="horizontal-line-1"></div>
     <div className="badge-medium-black">Support</div>
     <div className="header-1">Management Consulting & Business Support Services</div>
@@ -123,7 +123,7 @@ const HomeSection2 = () => (
 
 
 const HomeSection3 = () => (
-  <div className="section">
+  <div className="section" id="customized-training">
     <div className="horizontal-line-1"></div>
     <div className="badge-medium-black">Train</div>
     <div className="header-1">Custom Training Development & Delivery</div>

@@ -77,10 +77,10 @@ const ContractsSection1 = () => (
           <img src={starsLogo} />
          <Grid />
       </div>
-      <button className="button-medium-rounded-1">Contract Information</button>
+      <button className="button-medium-rounded-1" onClick={() => window.open('https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/governmentwide-acquisition-contracts/8a-stars-iii')}>Contract Information</button>
     </div>
 
-     <button className="button-medium-rounded-1">Contract Information</button>
+     <button className="button-medium-rounded-1" onClick={() => window.open('https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/governmentwide-acquisition-contracts/8a-stars-iii')}>Contract Information</button>
   </div>
 )
 
@@ -102,10 +102,10 @@ const ContractsSection2 = () => (
          <img src={vaLogo} />
          <Grid />
       </div>
-      <button className="button-medium-rounded-1">Contract Information</button>
+      <button className="button-medium-rounded-1" onClick={() => window.open('https://www.va.gov/OSDBU/acquisition/vector-town-hall.asp')}>Contract Information</button>
     </div>
 
-    <button className="button-medium-rounded-1">Contract Information</button>
+    <button className="button-medium-rounded-1" onClick={() => window.open('https://www.va.gov/OSDBU/acquisition/vector-town-hall.asp')}>Contract Information</button>
   </div>
 );
 
@@ -127,10 +127,10 @@ const ContractsSection3 = () => (
         <img src={GSALogo} />
         <Grid />
       </div>
-      <button className="button-medium-rounded-1">Contract Information</button>
+      <button className="button-medium-rounded-1" onClick={() => window.open('https://www.gsa.gov/buy-through-us/purchasing-programs/gsa-multiple-award-schedule/gsa-schedule-offerings/mas-categories/professional-services-category')}>Contract Information</button>
     </div>
 
-    <button className="button-medium-rounded-1">Contract Information</button>
+    <button className="button-medium-rounded-1" onClick={() => window.open('https://www.gsa.gov/buy-through-us/purchasing-programs/gsa-multiple-award-schedule/gsa-schedule-offerings/mas-categories/professional-services-category')}>Contract Information</button>
   </div>
 );
 
